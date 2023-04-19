@@ -17,4 +17,72 @@ O número de arestas em um grafo direcionado completo com n vértices é **2n(n-
 
 Um grafo direcionado completo com n vértices tem n(n-1) arestas direcionadas, que podem ser interpretadas como 2n(n-1) arestas não direcionadas (uma vez que cada aresta direcionada pode ser convertida em duas arestas não direcionadas em direções opostas). Portanto, um grafo direcionado completo com n vértices possui 2n(n-1) arestas.
 
-4 - Grafos isomórficos são grafos que possuem a mesma estrutura, o que significa que seus vértices e arestas podem ser renomeados de forma a preservar as relações de adjacência. Formalmente, dois grafos G e H são isomórficos se existe uma bijeção (injetiva e sobre mapeamento) f dos vértices de G aos vértices de H tal que para quaisquer dois vértices u e v em G, u é adjacente para v em G se e somente se f(u) for adjacente a f(v) em H
+**4** - Grafos isomórficos são grafos que possuem a mesma estrutura, o que significa que seus vértices e arestas podem ser renomeados de forma a preservar as relações de adjacência. Formalmente, dois grafos G e H são isomórficos se existe uma bijeção (injetiva e sobre mapeamento) f dos vértices de G aos vértices de H tal que para quaisquer dois vértices u e v em G, u é adjacente para v em G se e somente se f(u) for adjacente a f(v) em H
+
+![question4](./img/question4.jpg)
+
+**5** -
+
+Matriz quadrada de tamanho n = 9
+Cada linha/coluna representa o número do node(vértice)
+os nós vão de 1 a 9
+
+**Graus**
+
+- node 1: 2
+- node 2: 3
+- node 3: 5
+- node 4: 2
+- node 5: 3
+- node 6: 1
+- node 7: 0
+- node 8: 2
+- node 9: 1
+
+**Nós isolados**:
+
+- O node 7 é isolado
+
+**6** -
+
+a) Caminho simples do vértice M ao vértice S é o seguinte: M -> S.\
+b) Caminho de ciclo envolvendo quatro vértices = N > O > M > S > M \
+c) É conectado. \
+d)
+
+- N in (indgree) = 1
+- N out (outdgree) = 4
+- Degree 5
+<hr>
+- R in (indgree) = 0
+- R out (outdgree) = 2
+- Total Degree = 2
+  <br>
+  e) **Lista de adjacência**
+- M: S
+- N: O, Q, S, R
+- O: M, N
+- P: R, M, P
+- Q:
+- R:
+- S: M
+  <br>
+  f) Matriz de adjacência <br>
+  0, 1, 0, 0, 0, 0, 0, <br>
+  1, 0, 0, 0, 0, 0, 0, <br>
+  0, 1, 0, 1, 0, 1, 1, <br>
+  1, 0, 1, 0, 0, 0, 0, <br>
+  1, 0, 0, 0, 1, 1, 0, <br>
+  0, 0, 0, 0, 0, 0, 0, <br>
+  0, 0, 0, 0, 0, 0, 0, <br>
+
+**7** -
+
+![question7](./img/question7.jpg)
+
+**8** - \
+somatório(graus) = 2 * num de arestas \
+(3*3)+5 = 2 _ num de arestas \
+14 = 2 _ num de arestas \
+num de arestas = 14/2 \
+**Resposta:** 7
