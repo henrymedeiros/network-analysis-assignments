@@ -58,7 +58,7 @@ d)
 - R out (outdgree) = 2
 - Total Degree = 2
   <br>
-  e) **Lista de adjacência**
+  e)
 - M: S
 - N: O, Q, S, R
 - O: M, N
