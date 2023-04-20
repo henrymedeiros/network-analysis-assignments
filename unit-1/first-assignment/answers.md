@@ -59,7 +59,7 @@ d)
 - **Total Degree of R** = 2
   <br>
   <br>
-  e) Abaixo está  lista de adjacência 
+  e) Abaixo está lista de adjacência
 - M: S
 - N: O, Q, S, R
 - O: M, N
@@ -77,8 +77,8 @@ d)
   1, 0, 0, 0, 1, 1, 0, <br>
   0, 0, 0, 0, 0, 0, 0, <br>
   0, 0, 0, 0, 0, 0, 0, <br>
-<br>
-<br>
+  <br>
+  <br>
 
 **7** -
 
@@ -95,4 +95,4 @@ num de arestas = 14/2 \
 ![question9](./img/question9.png)
 
 **10** - \
-![question9](./img/question9.png)
+![question10](./img/question10.png)
