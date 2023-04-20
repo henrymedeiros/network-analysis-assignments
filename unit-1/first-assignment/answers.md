@@ -23,7 +23,7 @@ Um grafo direcionado completo com n vértices tem n(n-1) arestas direcionadas, q
 
 **5** -
 
-Matriz quadrada de tamanho n = 9
+Matriz quadrada de tamanho n = 9 \
 Cada linha/coluna representa o número do node(vértice)
 os nós vão de 1 a 9
 
@@ -52,13 +52,14 @@ d)
 
 - N in (indgree) = 1
 - N out (outdgree) = 4
-- Degree 5
-<hr>
+- **Total Degree of N** = 5
+
 - R in (indgree) = 0
 - R out (outdgree) = 2
-- Total Degree = 2
+- **Total Degree of R** = 2
   <br>
-  e)
+  <br>
+  e) Abaixo está  lista de adjacência 
 - M: S
 - N: O, Q, S, R
 - O: M, N
@@ -67,7 +68,8 @@ d)
 - R:
 - S: M
   <br>
-  f) Matriz de adjacência <br>
+  <br>
+  f) Abaixo está Matriz de adjacência <br>
   0, 1, 0, 0, 0, 0, 0, <br>
   1, 0, 0, 0, 0, 0, 0, <br>
   0, 1, 0, 1, 0, 1, 1, <br>
@@ -75,6 +77,8 @@ d)
   1, 0, 0, 0, 1, 1, 0, <br>
   0, 0, 0, 0, 0, 0, 0, <br>
   0, 0, 0, 0, 0, 0, 0, <br>
+<br>
+<br>
 
 **7** -
 
@@ -86,3 +90,9 @@ somatório(graus) = 2 * num de arestas \
 14 = 2 _ num de arestas \
 num de arestas = 14/2 \
 **Resposta:** 7
+
+**9** - \
+![question9](./img/question9.png)
+
+**10** - \
+![question9](./img/question9.png)
